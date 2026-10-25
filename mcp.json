@@ -1,0 +1,51 @@
+{
+  "name": "elisa-bertino-ai-mcp",
+  "version": "1.0.0",
+  "description": "Elisa Bertino AI Model Context Protocol Server for Autonomous Database Security, Fine-Grained Access Control, Cellular 5G/6G Security & Differential Privacy Protocol",
+  "tools": [
+    {
+      "name": "audit_cellular_protocol_vulnerabilities",
+      "description": "Analyze 4G/5G NAS signaling, baseband radio authentication handshakes, and IMSI catching resistance in cellular networks",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "cellular_generation": {
+            "type": "string"
+          },
+          "handshake_protocol": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "cellular_generation"
+        ]
+      }
+    },
+    {
+      "name": "disburse_database_privacy_grant",
+      "description": "Trigger automated micro-escrow releases for differential privacy database engines, 5G security testbeds, and fine-grained access control systems",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
